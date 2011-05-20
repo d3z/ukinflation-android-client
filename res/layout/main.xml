@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/uk_inflation_bg" >
+    <TextView android:id="@+id/textView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_label" android:textSize="20sp" android:gravity="center"></TextView>
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/progressLayout" android:layout_marginTop="50sp" android:orientation="vertical">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/progressBar"></ProgressBar>
+        <TextView android:gravity="center" android:id="@+id/inflationTextView" android:layout_width="fill_parent" android:textSize="72sp" android:layout_height="wrap_content" android:text="TextView" android:visibility="invisible"></TextView>
+    </LinearLayout>
+</LinearLayout>
