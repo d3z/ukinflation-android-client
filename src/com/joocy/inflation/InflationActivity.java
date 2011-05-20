@@ -55,11 +55,7 @@ public class InflationActivity extends Activity {
     }
     
     private void fetchRPI() {
-      
-      // Fetch the inflation figure from the online service.
-      // We do this on a backgroun thread.
-      @SuppressWarnings("unused")
-      AsyncTask<Void, Integer, Void> task = new AsyncTask<Void, Integer, Void>() {
+      new AsyncTask<Void, Integer, Void>() {
         private String responseStr = "Unknown";
         @Override
         protected Void doInBackground(Void... params)
