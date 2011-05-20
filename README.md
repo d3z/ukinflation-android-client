@@ -12,5 +12,5 @@ The images used in this app come from Steve's iOS client, available [here](https
 The code in this app, for all that there is, is licensed under a Do-Whatever-You-Want-To license.
 
 # the obligatory screenshot
-![ukinflation-android-client screenshot](ukinflation-android-client/blob/master/inflation_screenshot.png)
+![ukinflation-android-client screenshot](ukinflation-android-client/raw/master/inflation_screenshot.png)
 
